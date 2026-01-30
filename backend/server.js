@@ -2,7 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
-import dashboardRoutes from "./routes/dashboard.js";
+import dashboardRoutes from "./routes/Dashboard.js"
 
 dotenv.config();
 
