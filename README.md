@@ -5,6 +5,12 @@ The dashboard allows students to manage academic and campus-related information 
 
 ---
 
+## Live Demo
+
+Frontend: https://smartcampusdashboard.vercel.app  
+Backend API: https://smart-campus-dashboard-1-2pm9.onrender.com/api/dashboard
+
+
 ## Features
 
 - Modular, configurable widgets:
@@ -45,6 +51,8 @@ The dashboard allows students to manage academic and campus-related information 
 
 ## Project Structure
 
+```
+
 smart-campus-dashboard/
 │
 ├── backend/
@@ -67,6 +75,7 @@ smart-campus-dashboard/
 ├── index.html
 ├── package.json
 └── README.md
+```
  
 ---
 
