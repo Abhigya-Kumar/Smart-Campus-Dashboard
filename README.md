@@ -54,27 +54,30 @@ Backend API: https://smart-campus-dashboard-1-2pm9.onrender.com/api/dashboard
 ```
 
 smart-campus-dashboard/
-│
 ├── backend/
-│   ├── models/
-│   │   └── Dashboard.js
-│   ├── routes/
-│   │   └── dashboard.js
-│   ├── server.js
-│   ├── package.json
-│   └── .env
+│ ├── models/
+│ │ └── Dashboard.js
+│ ├── routes/
+│ │ └── dashboard.js
+│ ├── server.js
+│ ├── package.json
+│ └── .env
 │
-├── src/
-│   ├── components/
-│   ├── context/
-│   ├── hooks/
-│   ├── utils/
-│   ├── api/
-│   └── App.jsx
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── hooks/
+│ │ ├── utils/
+│ │ ├── api/
+│ │ └── App.jsx
+│ ├── index.html
+│ ├── package.json
+│ └── vite.config.js
 │
-├── index.html
-├── package.json
+├── .gitignore
 └── README.md
+
 ```
  
 ---

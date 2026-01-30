@@ -3,9 +3,7 @@ import Dashboard from "../models/Dashboard.js";
 
 const router = express.Router();
 
-/* 
-   GET dashboard layout
- */
+/* GET dashboard layout */
 router.get("/", async (req, res) => {
   try {
     const dashboard = await Dashboard.findOne();
@@ -18,9 +16,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-/* 
-   SAVE dashboard layout
- */
+/* SAVE dashboard layout */
 
 router.post("/", async (req, res) => {
   try {

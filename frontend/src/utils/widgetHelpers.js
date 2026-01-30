@@ -1,8 +1,6 @@
 import { v4 as uuid } from "uuid";
 
-/* -----------------------------
-   Widget Types
------------------------------ */
+/*  Widget Types */
 export const WIDGET_TYPES = {
   ATTENDANCE: "ATTENDANCE",
   STUDY_CHART: "STUDY_CHART",
@@ -14,9 +12,7 @@ export const WIDGET_TYPES = {
   SUBJECT_PERFORMANCE: "SUBJECT_PERFORMANCE",
 };
 
-/* -----------------------------
-   Default Titles
------------------------------ */
+/* Default Titles */
 export const DEFAULT_TITLES = {
   ATTENDANCE: "Attendance",
   STUDY_CHART: "Study Hours",
@@ -28,9 +24,7 @@ export const DEFAULT_TITLES = {
   SUBJECT_PERFORMANCE: "Subject Performance",
 };
 
-/* -----------------------------
-   DEFAULT CONFIG PER WIDGET 🔥
------------------------------ */
+/* DEFAULT CONFIG PER WIDGET  */
 export const DEFAULT_CONFIG = {
   ATTENDANCE: {
     subject: "All",
@@ -69,9 +63,7 @@ export const DEFAULT_CONFIG = {
   },
 };
 
-/* -----------------------------
-   DEFAULT DATA (OPTIONAL)
------------------------------ */
+/* DEFAULT DATA (OPTIONAL) */
 export const DEFAULT_DATA = {
   ATTENDANCE: { percentage: 72 },
 
@@ -80,9 +72,7 @@ export const DEFAULT_DATA = {
   },
 };
 
-/* -----------------------------
-   Widget Factory
------------------------------ */
+/* Widget Factory */
 export const createWidget = (type) => {
   return {
     id: uuid(),
@@ -93,9 +83,7 @@ export const createWidget = (type) => {
   };
 };
 
-/* -----------------------------
-   Move Widget Helper
------------------------------ */
+/* Move Widget Helper */
 export const moveWidget = (widgets, index, direction) => {
   const newWidgets = [...widgets];
   const targetIndex =
