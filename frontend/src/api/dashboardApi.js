@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:5000/api/dashboard";
+const API_URL =
+  "https://smart-campus-dashboard-1-2pm9.onrender.com/api/dashboard";
 
 export const fetchDashboard = async () => {
   const res = await fetch(API_URL);
