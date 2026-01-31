@@ -71,7 +71,8 @@ Key design decisions made in this project:
 - **Widget-driven design** where each widget is independent
 - **Backend-only persistence** to keep data consistent
 - **No authentication** to keep the project assignment-focused
-- **Drag-and-drop reordering** for better user experience
+- **Drag-and-drop reordering** is implemented using the `@dnd-kit` library, which provides accessible and performant drag-and-drop functionality for rearranging dashboard widgets.
+
 - **Tailwind CSS** for rapid and consistent UI styling
 
 The backend is implemented using Express and MongoDB Atlas to simulate a real-world full-stack application.
@@ -95,6 +96,7 @@ If more time were available, the following improvements could be made:
 
 Frontend: https://smartcampusdashboard.vercel.app  
 Backend API: https://smart-campus-dashboard-1-2pm9.onrender.com/api/dashboard
+Demo Video Link: https://drive.google.com/file/d/1WYNG-LryrejXV0IB271X8dxHJfjEGjBk/view?usp=sharing
 
 ---
 
